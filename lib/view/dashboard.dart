@@ -154,7 +154,7 @@ class Dashboard extends StatelessWidget {
           ),
           Center(
             child: Container(
-              margin: EdgeInsets.only(left: 15, right: 15),
+              margin: EdgeInsets.only(left: 14, right: 14),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
