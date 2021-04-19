@@ -76,24 +76,24 @@ class Dashboard extends StatelessWidget {
                   width: 25,
                 ),
                 Center(
-                  child:Container(
+                  child: Container(
                       width: 90.0,
                       height: 90.0,
                       decoration: BoxDecoration(
-                          color:  Colors.white,
+                          color: Colors.white,
                           image: DecorationImage(
-                              image: new NetworkImage(tournamentController.userPhoto.value),
+                              image: new NetworkImage(
+                                  tournamentController.userPhoto.value),
                               fit: BoxFit.cover),
                           borderRadius: BorderRadius.all(Radius.circular(75.0)),
                           boxShadow: [
-
-                            BoxShadow(blurRadius: 7.0,
+                            BoxShadow(
+                              blurRadius: 7.0,
                               offset: Offset(0, 5),
                               color: kShadowColor,
                             )
                           ])),
                 ),
-
                 Column(
                   children: [
                     SizedBox(
