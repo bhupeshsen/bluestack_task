@@ -76,26 +76,23 @@ class Dashboard extends StatelessWidget {
                   width: 25,
                 ),
                 Center(
-                  child: Container(
-                    width: 90,
-                    height: 90,
-                    alignment: Alignment.center,
-                    clipBehavior: Clip.none,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(100),
-                      border: Border.all(
-                          color: Color(0xFF3665A7),
-                          width: 1.0,
-                          style: BorderStyle.solid),
-                    ),
-                    child: ClipRRect(
-                        borderRadius: BorderRadius.circular(100),
-                        child: FadeInImage.assetNetwork(
-                            fadeInCurve: Curves.bounceIn,
-                            placeholder: 'assets/images/loading.gif',
-                            image: tournamentController.userPhoto.value)),
-                  ),
+                  child:Container(
+                      width: 90.0,
+                      height: 90.0,
+                      decoration: BoxDecoration(
+                          color:  Colors.white,
+                          image: DecorationImage(
+                              image: new NetworkImage(tournamentController.userPhoto.value),
+                              fit: BoxFit.cover),
+                          borderRadius: BorderRadius.all(Radius.circular(75.0)),
+                          boxShadow: [
+                            BoxShadow(blurRadius: 7.0,
+
+                              color: kShadowColor,
+                            )
+                          ])),
                 ),
+
                 Column(
                   children: [
                     SizedBox(
@@ -187,7 +184,7 @@ class Dashboard extends StatelessWidget {
                             "tournamentsPlayed".tr,
                             style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.bold),
                             textAlign: TextAlign.center,
                           ),
@@ -217,7 +214,7 @@ class Dashboard extends StatelessWidget {
                             "tournamentsWon".tr,
                             style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.bold),
                             textAlign: TextAlign.center,
                           ),
@@ -241,7 +238,7 @@ class Dashboard extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            '34',
+                            '26%',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 14,
@@ -251,7 +248,7 @@ class Dashboard extends StatelessWidget {
                             "tournamentsPercentage".tr,
                             style: TextStyle(
                                 color: Colors.white,
-                                fontSize: 14,
+                                fontSize: 12,
                                 fontWeight: FontWeight.bold),
                             textAlign: TextAlign.center,
                           ),
