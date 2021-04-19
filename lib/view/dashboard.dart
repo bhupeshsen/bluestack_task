@@ -86,8 +86,9 @@ class Dashboard extends StatelessWidget {
                               fit: BoxFit.cover),
                           borderRadius: BorderRadius.all(Radius.circular(75.0)),
                           boxShadow: [
-                            BoxShadow(blurRadius: 7.0,
 
+                            BoxShadow(blurRadius: 7.0,
+                              offset: Offset(0, 5),
                               color: kShadowColor,
                             )
                           ])),
@@ -204,7 +205,7 @@ class Dashboard extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            '34',
+                            '09',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 14,

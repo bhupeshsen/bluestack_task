@@ -8,7 +8,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/instance_manager.dart';
-import 'package:lottie/lottie.dart';
 
 class UserLogin extends StatelessWidget {
   static final routeName = '/userLogin';
