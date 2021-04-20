@@ -131,7 +131,7 @@ class Dashboard extends StatelessWidget {
                             width: 10,
                           ),
                           Text(
-                            'Elo rating',
+                            'Rating',
                             style: TextStyle(
                                 color: Colors.black45,
                                 fontWeight: FontWeight.bold,

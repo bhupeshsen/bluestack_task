@@ -9,4 +9,5 @@ const Map<String, String> ja = {
   'tournamentsPlayed':'トーナメント \nプレイした',
   'tournamentsWon':'トーナメント \n勝った',
   'tournamentsPercentage':'勝つ \nパーセンテージ'
+
 };

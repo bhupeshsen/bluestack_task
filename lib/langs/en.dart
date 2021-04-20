@@ -8,5 +8,5 @@ const Map<String, String> en = {
   'maxPassError':'The maximum  password length is ten characters',
   'tournamentsPlayed':'Tournaments\nplayed',
   'tournamentsWon':'Tournaments\nWon',
-  'tournamentsPercentage':'Winning \n percentage'
+  'tournamentsPercentage':'Winning \n percentage',
 };
