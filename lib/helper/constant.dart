@@ -5,5 +5,5 @@ const String TOURNAMENTS_API = BASE_URL+"/tournament/api";
 
 const String BASE_URL_TWO = "http://bhssolution.com";
 //my hots url
-const String USER_API = BASE_URL_TWO+"/blue-stack-api/api/v1/user-api/";
+const String USER_API = BASE_URL_TWO+"/blue-stack-api/api/v1/user-api";
 
