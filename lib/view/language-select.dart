@@ -7,8 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/get.dart';
 
-class OnBoarding extends StatelessWidget {
-  static final routeName = '/onBoarding';
+class SelectLanguage extends StatelessWidget {
+  static final routeName = '/selectLanguage';
   final LanguageController controller = Get.put(LanguageController());
 
   @override

@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       fallbackLocale: Locale('en'),
       initialRoute: "/",
       routes: {
-        '/':(context)=> OnBoarding(),
+        '/':(context)=> SelectLanguage(),
         UserLogin.routeName :(context)=>UserLogin(),
         Dashboard.routeName :(context)=>Dashboard(),
         TournamentListByCursor.routeName :(context)=>TournamentListByCursor(),
